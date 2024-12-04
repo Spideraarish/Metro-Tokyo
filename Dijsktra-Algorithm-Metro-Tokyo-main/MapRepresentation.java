@@ -107,7 +107,7 @@ public class MapRepresentation  {
 		Node otemachi = new Node("Otemachi", 35.687, 139.763, 3);
 		Node ginza = new Node("Ginza", 35.676, 139.763, 21);
 		Node tokyo = new Node("Tokyo", 35.681, 139.766, 33);
-		Node hongoSachome = new Node("Hongo-Sachome", 35.707, 139.766, 15);
+		Node hongoSanchome = new Node("Hongo-Sanchome", 35.707, 139.766, 15);
 		Node korakuen = new Node("Korakuen", 35.708, 139.751, 3);
 
 		// yellow line stations 5
@@ -175,11 +175,11 @@ public class MapRepresentation  {
 		otemachi.addEdge(new Edge(otemachi, tokyo, 0.7));
 		tokyo.addEdge(new Edge(tokyo, otemachi, 0.7));
 
-		hongoSachome.addEdge(new Edge(hongoSachome, korakuen, 1.0));
-		korakuen.addEdge(new Edge(korakuen, hongoSachome, 1.0));
+		hongoSanchome.addEdge(new Edge(hongoSanchome, korakuen, 1.0));
+		korakuen.addEdge(new Edge(korakuen, hongoSanchome, 1.0));
 		
-		otemachi.addEdge(new Edge(otemachi, hongoSachome, 1.5));
-		hongoSachome.addEdge(new Edge(hongoSachome, otemachi, 1.5));
+		otemachi.addEdge(new Edge(otemachi, hongoSanchome, 1.5));
+		hongoSanchome.addEdge(new Edge(hongoSanchome, otemachi, 1.5));
 		
 		ikebukuro.addEdge(new Edge(ikebukuro, korakuen, 1.2));
 		korakuen.addEdge(new Edge(korakuen, ikebukuro, 1.2));
@@ -301,7 +301,7 @@ public class MapRepresentation  {
 		graph.addNode(nippori);
 		graph.addNode(ginza);
 		graph.addNode(ueno);
-		graph.addNode(hongoSachome);
+		graph.addNode(hongoSanchome);
 		graph.addNode(akihabara);
 		graph.addNode(kanda);
 		graph.addNode(tokyo);
