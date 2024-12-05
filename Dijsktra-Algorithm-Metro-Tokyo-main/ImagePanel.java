@@ -12,7 +12,6 @@ import javax.swing.*;
 
 public class ImagePanel extends JFrame {
 	
-	private static final long serialVersionUID = 1L;
 	Panel mainPanel = new Panel();
 	BufferedImage img;
 	
@@ -46,18 +45,11 @@ public class ImagePanel extends JFrame {
 
 	class Panel extends JPanel {
 
-		private static final long serialVersionUID = 1L;
 		private ArrayList<Station> allStations;
 		private ArrayList<String> minimumPath;
-		private ArrayList<String> minimumShortestPath;
 
 		public void setMinimumPath(ArrayList<String> minimumPath) {
 			this.minimumPath = minimumPath;
-			allStations = new ArrayList<Station>();
-		}
-		
-		public void setminimumShortestPath(ArrayList<String> minimumShortestPath) {
-			this.minimumPath = minimumShortestPath;
 			allStations = new ArrayList<Station>();
 		}
 
