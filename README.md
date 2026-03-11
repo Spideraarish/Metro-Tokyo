@@ -2,7 +2,7 @@
 # Tokyo Metro Shortest Path Finder  
 
 ## 📖 Overview  
-The **Tokyo Metro Shortest Path Finder** is an advanced Java-based application that calculates the shortest path between stations in the Tokyo Metro system using Dijkstra's algorithm. It features an intuitive graphical user interface (GUI) built with Java Swing and precise geospatial computations to enhance route accuracy.  
+The **Tokyo Metro Shortest Path Finder** is an advanced Java-based application that calculates the shortest path between stations in the Tokyo Metro system using Dijkstra's algorithm. It features an intuitive graphical user interface (GUI) built with Java Swing and precise geospatial computations to enhance route accuracy. 
 
 ---
 
