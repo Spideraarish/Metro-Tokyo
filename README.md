@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f7bd0cd6-f3e0-4ef4-b14d-418d493f039e)
+![lennart-butz-idea5anim5](https://github.com/user-attachments/assets/5edded10-8117-4f37-83e5-08c453d2d801)
 # Tokyo Metro Shortest Path Finder  
 
 ## 📖 Overview  
@@ -34,7 +34,7 @@ Ensure you have the following installed before running the application:
 
 ### 1. Clone the Repository  
 ```bash  
-git clone https://github.com/Tarak101/tokyoRoutePlanner.git 
+git clone https://github.com/Spideraarish/Metro-Tokyo.git
 cd Dijsktra-Algorithm-Metro-Tokyo-main  
 ```  
 
